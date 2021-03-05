@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
     }
 
+    // You can only see your screen at this time ,so I wrote text code displaying on screen.
     @SuppressLint("SetTextI18n")
     override fun onResume() {
         Log.d(TAG,"onResume is called!!")
